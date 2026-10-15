@@ -3,7 +3,7 @@ permenantArr=[]
 tempArr=[]
 x=1
 while x>0:
-    userVal=int(input("Enter frequency cycle depth (min 4): "))
+    userVal=int(input("Enter frequency cycle depth (minimum 4): "))
     if(userVal<4):
         print("number should be greater than or equal to 4")
     else:
